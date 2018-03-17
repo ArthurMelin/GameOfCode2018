@@ -36,6 +36,10 @@ function initMap() {
 
 function initUI() {
 	$(".button-collapse").sideNav();
+	$(".modal").modal();
+	$(".about a").click(function() {
+		$("#modal-about").modal("open");
+	});
 }
 
 $(document).ready(function() {

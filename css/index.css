@@ -27,8 +27,19 @@ nav {
 	font-size: 36px;
 }
 
+.side-nav {
+	height: 100%;
+	position: relative;
+}
+
 .side-nav li:first-child img {
 	width: 300px;
+}
+
+.side-nav .about {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 .title {
