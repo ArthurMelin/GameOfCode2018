@@ -7,10 +7,12 @@ const TRAILS_CATEGORIES = [ 5, 10, 15, 20, 30 ];
 function initTrails(_data) {
 	data = _data;
 
-	for (var i = 0; TRAILS_CATEGORIES.length + 1; i++)
+	console.log('Loading', data.length, 'trails');
+
+	for (var i = 0; i < TRAILS_CATEGORIES.length + 1; i++)
 		trails.push([]);
 
-	for (var i = 0; data.length; i++) {
+	for (var i = 0; i < data.length; i++) {
 		var cat;
 		for (cat = 0; cat < TRAILS_CATEGORIES.length; cat++) {
 			if (data[i].distance < TRAILS_CATEGORIES[cat]) {
@@ -21,8 +23,8 @@ function initTrails(_data) {
 		points = []
 		for (var j = 0; j < data[i].steps.length; j++) {
 			points.push({
-				lat: data[i].steps[j].latitude,
-				lng: data[i].steps[j].longitude,
+				lat: parseFloat(data[i].steps[j].latitude),
+				lng: parseFloat(data[i].steps[j].longitude)
 			});
 		}
 
@@ -75,7 +77,6 @@ function initUI() {
 	});
 
 	for (var i = 0; i < TRAILS_CATEGORIES.length + 1; i++) {
-		console.log(i);
 		filters[i + 1].click(function() {
 			drawTrails(i);
 		});
