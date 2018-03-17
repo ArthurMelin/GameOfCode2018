@@ -1,0 +1,24 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+main, #map {
+	height: 100%
+}
+
+header, main, footer {
+	padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 0;
+	}
+}
+
+nav {
+	background-color: #666;
+	font-size: 36px;
+}

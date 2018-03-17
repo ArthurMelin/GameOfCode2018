@@ -10,10 +10,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
+
+	<header>
+		<nav class="top-nav">
+			<div class="container">
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+			</div>
+			<div class="container center-align">
+					<a class="page-title">Hitchhike.lu</a>
+			</div>
+		</nav>
+		<ul id="slide-out" class="side-nav">
+			<li>
+			</li>
+		</ul>
+	</header>
+
+	<main>
+		<div id="map"></div>
+	</main>
+
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/materialize.min.js"></script>
 	<script src="js/index.js"></script>
-
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyORfiyKxx1RyIHNINY66Oql4KAp8_EB8&callback=initMap"></script>
 
 </body>
 </html>
