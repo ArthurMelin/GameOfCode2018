@@ -1,5 +1,4 @@
 var map;
-var data;
 var trails = [];
 
 const TRAILS_CATEGORIES = [ 5, 10, 15, 20, 30 ];
@@ -7,9 +6,7 @@ const TRAILS_CATEGORIES_COLORS = [
 	'#00e600', '#1a8fb2', '#e5de10', 'ed6b21', '#ed2020', '#760687' ];
 
 
-function initTrails(_data) {
-	data = _data;
-
+function initTrails(data) {
 	for (var i = 0; i < TRAILS_CATEGORIES.length + 1; i++)
 		trails.push([]);
 
@@ -29,13 +26,27 @@ function initTrails(_data) {
 			});
 		}
 
-		trails[cat].push(new google.maps.Polyline({
+		trail = new google.maps.Polyline({
 			path: points,
 			geodesic: true,
 			strokeColor: TRAILS_CATEGORIES_COLORS[cat],
 			strokeOpacity: 1.0,
 			strokeWeight: 2
-		}));
+		});
+
+		const trailData = data[i];
+		trail.addListener('click', function() {
+			var modal_html = '<h4>' + trailData.name + '</h4>'
+				+ '<p>Length: ' + trailData.distance.toFixed(1) + 'km</p>';
+
+			var modal = $('#modal-trail-info');
+			var content = modal.find('.modal-content');
+			content.empty();
+			content.append(modal_html);
+			modal.modal('open');
+		});
+
+		trails[cat].push(trail);
 	}
 }
 
