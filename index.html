@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      #map {
+        height: 100%;
+      }
+      .pad {
+      margin: 5% 10%;
+      width: 80%;
+      height: 80%;
+      border: solid 3px black;
+      }
+      .bigTitle {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="bigTitle">Maps</p>
+    <div class="pad">
+      <div id="map"></div>
+      </div>
+    <script>
+ var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: {lat: 49.61161, lng: 6.13},
+          mapTypeId: 'terrain'
+        });
+        var script = document.createElement('script');
+        script.src = 'https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js';
+        document.getElementsByTagName('head')[0].appendChild(script);
+
+        map.data.setStyle(function(feature) {
+          var magnitude = feature.getProperty('mag');
+          return {
+            icon: getCircle(magnitude)
+          };
+        });
+      }
+
+      function getCircle(magnitude) {
+        return {
+          path: google.maps.SymbolPath.CIRCLE,
+          fillColor: 'red',
+          fillOpacity: .2,
+          scale: Math.pow(2, magnitude) / 2,
+          strokeColor: 'white',
+          strokeWeight: .5
+        };
+      }
+
+      function eqfeed_callback(results) {
+        map.data.addGeoJson(results);
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjFj10dsvqv3GtOIPZcxpEypkbDZdyxsw&callback=initMap">
+    </script>
+  </body>
+</html>
