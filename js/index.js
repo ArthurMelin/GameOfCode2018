@@ -3,11 +3,12 @@ var data;
 var trails = [];
 
 const TRAILS_CATEGORIES = [ 5, 10, 15, 20, 30 ];
+const TRAILS_CATEGORIES_COLORS = [
+	'#00e600', '#1a8fb2', '#e5de10', 'ed6b21', '#ed2020', '#760687' ];
+
 
 function initTrails(_data) {
 	data = _data;
-
-	console.log('Loading', data.length, 'trails');
 
 	for (var i = 0; i < TRAILS_CATEGORIES.length + 1; i++)
 		trails.push([]);
@@ -23,15 +24,15 @@ function initTrails(_data) {
 		points = []
 		for (var j = 0; j < data[i].steps.length; j++) {
 			points.push({
-				lat: parseFloat(data[i].steps[j].latitude),
-				lng: parseFloat(data[i].steps[j].longitude)
+				lat: data[i].steps[j].latitude,
+				lng: data[i].steps[j].longitude
 			});
 		}
 
 		trails[cat].push(new google.maps.Polyline({
 			path: points,
 			geodesic: true,
-			strokeColor: '#ee0000',
+			strokeColor: TRAILS_CATEGORIES_COLORS[cat],
 			strokeOpacity: 1.0,
 			strokeWeight: 2
 		}));
@@ -45,13 +46,19 @@ function drawTrails(cat) {
 			trails[i][j].setMap(map_set);
 		}
 	}
+
+	filters = $('.length-filters li');
+	filters.each(function() {
+		$(this).removeClass('active');
+	});
+	$(filters[cat + 1]).addClass('active');
 }
 
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 10,
 		minZoom: 10,
-		center: new google.maps.LatLng(49.6, 6.116667),
+		center: new google.maps.LatLng(49.80, 6.1),
 		mapTypeId: google.maps.MapTypeId.HYBRID,
 		streetViewControl: false,
 		styles: [
@@ -71,14 +78,15 @@ function initUI() {
 	$('.button-collapse').sideNav();
 	$('.modal').modal();
 
-	filters = $('.length-filters li');
-	filters[0].click(function() {
+	filters = $('.length-filters li a');
+	$(filters[0]).click(function() {
 		drawTrails(-1);
 	});
 
 	for (var i = 0; i < TRAILS_CATEGORIES.length + 1; i++) {
-		filters[i + 1].click(function() {
-			drawTrails(i);
+		const _i = i;
+		$(filters[i + 1]).click(function() {
+			drawTrails(_i);
 		});
 	}
 
@@ -97,9 +105,10 @@ function initUI() {
 			initTrails(data);
 			drawTrails(-1);
 		}),
-		error: (function(what, status, error) {
+		error: (function(req, status, error) {
 			$('.toast').first()[0].M_Toast.remove();
 			Materialize.toast('Failed to load trails data', 5000);
+			console.error(error)
 		})
 	});
 }
