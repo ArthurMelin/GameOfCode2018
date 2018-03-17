@@ -4,7 +4,11 @@ html, body {
 	padding: 0;
 }
 
-main, #map {
+main {
+	height: calc(100% - 64px);
+}
+
+#map {
 	height: 100%
 }
 
@@ -21,4 +25,8 @@ header, main, footer {
 nav {
 	background-color: #666;
 	font-size: 36px;
+}
+
+.side-nav li:first-child img {
+	width: 300px;
 }
