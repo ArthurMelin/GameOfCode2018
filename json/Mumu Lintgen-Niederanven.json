@@ -1,0 +1,37 @@
+{
+    "declaration": {
+        "attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "elements": [
+        {
+            "type": "element",
+            "name": "gpx",
+            "attributes": {
+                "xmlns": "http://www.topografix.com/GPX/1/1",
+                "version": "1.1",
+                "creator": "FME(R) 2017.0.1.1"
+            },
+            "elements": [
+                {
+                    "type": "element",
+                    "name": "metadata",
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "time",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "2018-03-17T09:52:23+01:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
