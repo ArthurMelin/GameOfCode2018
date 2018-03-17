@@ -23,24 +23,6 @@ function initMap() {
 function initUI() {
 	$('.button-collapse').sideNav();
 	$('.modal').modal();
-
-	if (navigator.geolocation) {
-		$('.locate').removeClass('hide');
-		$('.locate a').click(function() {
-			navigator.geolocation.getCurrentPosition(function(position) {
-				var pos = {
-					lat: position.coords.latitude,
-					lng: position.coords.longitude
-				};
-
-				map.panTo(pos);
-				map.setZoom(15);
-			}, function() {
-				alert('Location unavailable');
-			});
-		});
-	}
-
 	$('.about a').click(function() {
 		$('#modal-about').modal('open');
 	});
@@ -58,7 +40,6 @@ function initUI() {
 		error: (function(what, status, error) {
 			console.log(status);
 			console.log(error);
-
 		})
 	});
 }
