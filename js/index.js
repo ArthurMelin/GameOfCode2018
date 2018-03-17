@@ -37,7 +37,7 @@ function initTrails(data) {
 		const trailData = data[i];
 		trail.addListener('click', function() {
 			var modal_html = '<h4>' + trailData.name + '</h4>'
-				+ '<p>Length: ' + trailData.distance.toFixed(1) + 'km</p>';
+				+ '<p>Length: ' + trailData.distance.toFixed(1) + ' km</p>';
 
 			var modal = $('#modal-trail-info');
 			var content = modal.find('.modal-content');
