@@ -1,7 +1,7 @@
 var map;
 
 function initMap() {
-	map = new google.maps.Map(document.getElementById("map"), {
+	map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 10,
 		minZoom: 10,
 		center: new google.maps.LatLng(49.6, 6.116667),
@@ -9,10 +9,10 @@ function initMap() {
 		streetViewControl: false,
 		styles: [
 			{
-				featureType: "road",
+				featureType: 'road',
 				stylers: [
 					{
-						visibility: "off"
+						visibility: 'off'
 					}
 				]
 			}
@@ -21,28 +21,45 @@ function initMap() {
 }
 
 function initUI() {
-	$(".button-collapse").sideNav();
-	$(".modal").modal();
+	$('.button-collapse').sideNav();
+	$('.modal').modal();
 
 	if (navigator.geolocation) {
-		$(".locate").removeClass("hide");
-		$(".locate a").click(function() {
+		$('.locate').removeClass('hide');
+		$('.locate a').click(function() {
 			navigator.geolocation.getCurrentPosition(function(position) {
 				var pos = {
-						lat: position.coords.latitude,
-						lng: position.coords.longitude
-					};
+					lat: position.coords.latitude,
+					lng: position.coords.longitude
+				};
 
 				map.panTo(pos);
 				map.setZoom(15);
 			}, function() {
-				alert("Location unavailable");
+				alert('Location unavailable');
 			});
 		});
 	}
 
-	$(".about a").click(function() {
-		$("#modal-about").modal("open");
+	$('.about a').click(function() {
+		$('#modal-about').modal('open');
+	});
+
+	Materialize.toast('Loading...');
+
+	$.ajax({
+		datatype: 'json',
+		type: 'GET',
+		url: 'json/trails.json',
+		success: (function(data) {
+			console.log(data);
+			$('.toast').first()[0].M_Toast.remove();
+		}),
+		error: (function(what, status, error) {
+			console.log(status);
+			console.log(error);
+
+		})
 	});
 }
 
