@@ -1,1101 +1,522 @@
 {
-    "declaration": {
-        "attributes": {
-            "version": "1.0",
-            "encoding": "UTF-8"
-        }
+  "time": "2018-03-17T09:51:59+01:00",
+  "name": "NOBRESSART 03",
+  "steps": [
+    {
+      "latitude": "49.741004447193056",
+      "longitude": "5.7190637052707833"
     },
-    "elements": [
-        {
-            "type": "element",
-            "name": "gpx",
-            "attributes": {
-                "xmlns": "http://www.topografix.com/GPX/1/1",
-                "version": "1.1",
-                "creator": "FME(R) 2017.0.1.1"
-            },
-            "elements": [
-                {
-                    "type": "element",
-                    "name": "metadata",
-                    "elements": [
-                        {
-                            "type": "element",
-                            "name": "time",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "2018-03-17T09:51:59+01:00"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "element",
-                            "name": "bounds",
-                            "attributes": {
-                                "minlat": "49.733397261894694",
-                                "minlon": "5.6911644853398542",
-                                "maxlat": "49.748873446483678",
-                                "maxlon": "5.7223143037288198"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "element",
-                    "name": "trk",
-                    "elements": [
-                        {
-                            "type": "element",
-                            "name": "name",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "NOBRESSART 03"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "element",
-                            "name": "trkseg",
-                            "elements": [
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.741004447193056",
-                                        "lon": "5.7190637052707833"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740930697451795",
-                                        "lon": "5.7185926892578873"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.73999342556219",
-                                        "lon": "5.7180186597789735"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740232508061553",
-                                        "lon": "5.7170730755156312"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740024863453421",
-                                        "lon": "5.7168530263601056"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.739879990188385",
-                                        "lon": "5.7165907785204002"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.73978830339739",
-                                        "lon": "5.7161338164603519"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.739625177217192",
-                                        "lon": "5.7158023762402896"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.739191306439778",
-                                        "lon": "5.7152098667844369"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.73872136215887",
-                                        "lon": "5.7145899578669939"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.738313913949177",
-                                        "lon": "5.7138584975946616"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.737334612881568",
-                                        "lon": "5.71174514901415"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.736700744292008",
-                                        "lon": "5.7105996902800884"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.735558180900199",
-                                        "lon": "5.70814121934868"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.735376940841981",
-                                        "lon": "5.7077822619509924"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.734870333643713",
-                                        "lon": "5.7069963595768103"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.734850202243386",
-                                        "lon": "5.7064555551597556"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.734676290352432",
-                                        "lon": "5.7056803914342327"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.734603371244248",
-                                        "lon": "5.7054313943251147"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.734470912512847",
-                                        "lon": "5.703781936268201"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.734415192917986",
-                                        "lon": "5.7033385776330414"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.734122212526835",
-                                        "lon": "5.7020235819592111"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.734038957070659",
-                                        "lon": "5.7014417776291655"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.733865211337807",
-                                        "lon": "5.6984888359300845"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.733841046735307",
-                                        "lon": "5.6969632172386264"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.734014766065052",
-                                        "lon": "5.6954634246041946"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.734005097617555",
-                                        "lon": "5.6952970612345046"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.733397261894694",
-                                        "lon": "5.6917657860456883"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.735309845077424",
-                                        "lon": "5.6911644853398542"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.735494096039993",
-                                        "lon": "5.6922446872442007"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.735695580142377",
-                                        "lon": "5.6931443946954055"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.735863643164244",
-                                        "lon": "5.694668672469029"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.735904239318991",
-                                        "lon": "5.6958057794378725"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.736013632172359",
-                                        "lon": "5.6972820873522823"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.736072773668909",
-                                        "lon": "5.6974549164031973"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.736194511018468",
-                                        "lon": "5.6975439095630032"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.736250168521551",
-                                        "lon": "5.6979664703234549"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.736346674664595",
-                                        "lon": "5.6984857431436504"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.73652762172032",
-                                        "lon": "5.6998781505107008"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.736937028679634",
-                                        "lon": "5.701074169071604"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.737073894560041",
-                                        "lon": "5.7015722607139558"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.737174879825531",
-                                        "lon": "5.7020915066082143"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.737258493611527",
-                                        "lon": "5.7027635163460069"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.737296401114676",
-                                        "lon": "5.7032486871350923"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.737379647570201",
-                                        "lon": "5.7038305335258679"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.737470689769957",
-                                        "lon": "5.7041140509598565"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.73785155993103",
-                                        "lon": "5.7049289048176961"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.738006832604171",
-                                        "lon": "5.7055378224150282"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.738153442802862",
-                                        "lon": "5.7062300615843293"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.738331267614498",
-                                        "lon": "5.7068595827006483"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.738463200385361",
-                                        "lon": "5.7072537062309419"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.738696969186925",
-                                        "lon": "5.7083890626286165"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.738875879288187",
-                                        "lon": "5.7092960445670045"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.739190652121103",
-                                        "lon": "5.7104584057106411"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.73925530776026",
-                                        "lon": "5.7108947956422096"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.739327614321617",
-                                        "lon": "5.7109912281057653"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.739823949048883",
-                                        "lon": "5.7114582590385812"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740101785297391",
-                                        "lon": "5.712378221569514"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740233454437849",
-                                        "lon": "5.7127099474116001"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.74036495946541",
-                                        "lon": "5.7130000568813806"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740491615160295",
-                                        "lon": "5.7132000369158806"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740649574273299",
-                                        "lon": "5.7133581060848524"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.74062531806134",
-                                        "lon": "5.7140519976214756"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.741304915727163",
-                                        "lon": "5.7142537705192815"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.741588306760143",
-                                        "lon": "5.7142996897620035"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.741741145496135",
-                                        "lon": "5.7142982670134099"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.741983211270835",
-                                        "lon": "5.7141225924834176"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.742068322701797",
-                                        "lon": "5.7140454944336874"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.742707694957851",
-                                        "lon": "5.7131585464950172"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.743137852370239",
-                                        "lon": "5.7128007443879181"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.744171679263964",
-                                        "lon": "5.7127702765801569"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.744692965433309",
-                                        "lon": "5.7127237837384133"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746228490365532",
-                                        "lon": "5.7122376912022572"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746394732958088",
-                                        "lon": "5.7122153239499047"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746516486147769",
-                                        "lon": "5.7123113100643259"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746342913761922",
-                                        "lon": "5.7127569311501993"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.74640679947445",
-                                        "lon": "5.7129991460303655"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746524654895005",
-                                        "lon": "5.7132477953845671"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746422432569148",
-                                        "lon": "5.7135470609414076"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746324650422821",
-                                        "lon": "5.7138324089251142"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746020926764807",
-                                        "lon": "5.7143347339824091"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.745854385426462",
-                                        "lon": "5.7142807852098612"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.745670405442503",
-                                        "lon": "5.7143657466264584"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.745608339377931",
-                                        "lon": "5.714588320006615"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.745568911681545",
-                                        "lon": "5.7148523064347634"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.745702224036869",
-                                        "lon": "5.7156072408281045"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.745938760358776",
-                                        "lon": "5.7163195982231558"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746252870387274",
-                                        "lon": "5.7173295551995542"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.74655773919914",
-                                        "lon": "5.7182771729727451"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746757867611286",
-                                        "lon": "5.7188788908506023"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746893771964835",
-                                        "lon": "5.7191482025897482"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.747789377614545",
-                                        "lon": "5.7205760514787256"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.748873446483678",
-                                        "lon": "5.7219189738965461"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.748344445513816",
-                                        "lon": "5.7222984552083327"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.748128726472821",
-                                        "lon": "5.7223143037288198"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.747584294130355",
-                                        "lon": "5.7221874678943614"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746512537543957",
-                                        "lon": "5.7205392123116114"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.746300190278745",
-                                        "lon": "5.7202636636650857"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.745943887011386",
-                                        "lon": "5.7199616912055484"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.745772102867065",
-                                        "lon": "5.7197135246661288"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.745095382599736",
-                                        "lon": "5.7179299289557983"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.744990969122249",
-                                        "lon": "5.7176672768083865"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.744807817882105",
-                                        "lon": "5.7168087504150922"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.744725581290091",
-                                        "lon": "5.7164695871703444"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.74446729932157",
-                                        "lon": "5.7159447529752123"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.744330684429656",
-                                        "lon": "5.7154951034468322"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.744135277473028",
-                                        "lon": "5.7149558198780994"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.743867943927356",
-                                        "lon": "5.7144172100605308"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.743758593153167",
-                                        "lon": "5.7140436244276005"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.743726176413588",
-                                        "lon": "5.7138011280607266"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.743783555607486",
-                                        "lon": "5.7135300462798186"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.743971323727727",
-                                        "lon": "5.7132646843342298"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.744595022074627",
-                                        "lon": "5.7129675014057533"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.744662233275349",
-                                        "lon": "5.7129113760146533"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.744702173636767",
-                                        "lon": "5.7127791955874061"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.743843770586786",
-                                        "lon": "5.712835773577849"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.74314700612328",
-                                        "lon": "5.7128422809656954"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.74272142538922",
-                                        "lon": "5.7132208509197984"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.742082052656066",
-                                        "lon": "5.7141077982944148"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.74175035294261",
-                                        "lon": "5.714353675807291"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.741592991833656",
-                                        "lon": "5.7143482036842732"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740621094108384",
-                                        "lon": "5.7141214034827792"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740602113924005",
-                                        "lon": "5.7150164079944306"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740616790588163",
-                                        "lon": "5.7153214842527396"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740268254513992",
-                                        "lon": "5.7170172520020524"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.74019329005182",
-                                        "lon": "5.717392521503915"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740051675674827",
-                                        "lon": "5.7179695660311607"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.740966552086313",
-                                        "lon": "5.718564611863302"
-                                    }
-                                },
-                                {
-                                    "type": "element",
-                                    "name": "trkpt",
-                                    "attributes": {
-                                        "lat": "49.741044931368954",
-                                        "lon": "5.7190702690956776"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    {
+      "latitude": "49.740930697451795",
+      "longitude": "5.7185926892578873"
+    },
+    {
+      "latitude": "49.73999342556219",
+      "longitude": "5.7180186597789735"
+    },
+    {
+      "latitude": "49.740232508061553",
+      "longitude": "5.7170730755156312"
+    },
+    {
+      "latitude": "49.740024863453421",
+      "longitude": "5.7168530263601056"
+    },
+    {
+      "latitude": "49.739879990188385",
+      "longitude": "5.7165907785204002"
+    },
+    {
+      "latitude": "49.73978830339739",
+      "longitude": "5.7161338164603519"
+    },
+    {
+      "latitude": "49.739625177217192",
+      "longitude": "5.7158023762402896"
+    },
+    {
+      "latitude": "49.739191306439778",
+      "longitude": "5.7152098667844369"
+    },
+    {
+      "latitude": "49.73872136215887",
+      "longitude": "5.7145899578669939"
+    },
+    {
+      "latitude": "49.738313913949177",
+      "longitude": "5.7138584975946616"
+    },
+    {
+      "latitude": "49.737334612881568",
+      "longitude": "5.71174514901415"
+    },
+    {
+      "latitude": "49.736700744292008",
+      "longitude": "5.7105996902800884"
+    },
+    {
+      "latitude": "49.735558180900199",
+      "longitude": "5.70814121934868"
+    },
+    {
+      "latitude": "49.735376940841981",
+      "longitude": "5.7077822619509924"
+    },
+    {
+      "latitude": "49.734870333643713",
+      "longitude": "5.7069963595768103"
+    },
+    {
+      "latitude": "49.734850202243386",
+      "longitude": "5.7064555551597556"
+    },
+    {
+      "latitude": "49.734676290352432",
+      "longitude": "5.7056803914342327"
+    },
+    {
+      "latitude": "49.734603371244248",
+      "longitude": "5.7054313943251147"
+    },
+    {
+      "latitude": "49.734470912512847",
+      "longitude": "5.703781936268201"
+    },
+    {
+      "latitude": "49.734415192917986",
+      "longitude": "5.7033385776330414"
+    },
+    {
+      "latitude": "49.734122212526835",
+      "longitude": "5.7020235819592111"
+    },
+    {
+      "latitude": "49.734038957070659",
+      "longitude": "5.7014417776291655"
+    },
+    {
+      "latitude": "49.733865211337807",
+      "longitude": "5.6984888359300845"
+    },
+    {
+      "latitude": "49.733841046735307",
+      "longitude": "5.6969632172386264"
+    },
+    {
+      "latitude": "49.734014766065052",
+      "longitude": "5.6954634246041946"
+    },
+    {
+      "latitude": "49.734005097617555",
+      "longitude": "5.6952970612345046"
+    },
+    {
+      "latitude": "49.733397261894694",
+      "longitude": "5.6917657860456883"
+    },
+    {
+      "latitude": "49.735309845077424",
+      "longitude": "5.6911644853398542"
+    },
+    {
+      "latitude": "49.735494096039993",
+      "longitude": "5.6922446872442007"
+    },
+    {
+      "latitude": "49.735695580142377",
+      "longitude": "5.6931443946954055"
+    },
+    {
+      "latitude": "49.735863643164244",
+      "longitude": "5.694668672469029"
+    },
+    {
+      "latitude": "49.735904239318991",
+      "longitude": "5.6958057794378725"
+    },
+    {
+      "latitude": "49.736013632172359",
+      "longitude": "5.6972820873522823"
+    },
+    {
+      "latitude": "49.736072773668909",
+      "longitude": "5.6974549164031973"
+    },
+    {
+      "latitude": "49.736194511018468",
+      "longitude": "5.6975439095630032"
+    },
+    {
+      "latitude": "49.736250168521551",
+      "longitude": "5.6979664703234549"
+    },
+    {
+      "latitude": "49.736346674664595",
+      "longitude": "5.6984857431436504"
+    },
+    {
+      "latitude": "49.73652762172032",
+      "longitude": "5.6998781505107008"
+    },
+    {
+      "latitude": "49.736937028679634",
+      "longitude": "5.701074169071604"
+    },
+    {
+      "latitude": "49.737073894560041",
+      "longitude": "5.7015722607139558"
+    },
+    {
+      "latitude": "49.737174879825531",
+      "longitude": "5.7020915066082143"
+    },
+    {
+      "latitude": "49.737258493611527",
+      "longitude": "5.7027635163460069"
+    },
+    {
+      "latitude": "49.737296401114676",
+      "longitude": "5.7032486871350923"
+    },
+    {
+      "latitude": "49.737379647570201",
+      "longitude": "5.7038305335258679"
+    },
+    {
+      "latitude": "49.737470689769957",
+      "longitude": "5.7041140509598565"
+    },
+    {
+      "latitude": "49.73785155993103",
+      "longitude": "5.7049289048176961"
+    },
+    {
+      "latitude": "49.738006832604171",
+      "longitude": "5.7055378224150282"
+    },
+    {
+      "latitude": "49.738153442802862",
+      "longitude": "5.7062300615843293"
+    },
+    {
+      "latitude": "49.738331267614498",
+      "longitude": "5.7068595827006483"
+    },
+    {
+      "latitude": "49.738463200385361",
+      "longitude": "5.7072537062309419"
+    },
+    {
+      "latitude": "49.738696969186925",
+      "longitude": "5.7083890626286165"
+    },
+    {
+      "latitude": "49.738875879288187",
+      "longitude": "5.7092960445670045"
+    },
+    {
+      "latitude": "49.739190652121103",
+      "longitude": "5.7104584057106411"
+    },
+    {
+      "latitude": "49.73925530776026",
+      "longitude": "5.7108947956422096"
+    },
+    {
+      "latitude": "49.739327614321617",
+      "longitude": "5.7109912281057653"
+    },
+    {
+      "latitude": "49.739823949048883",
+      "longitude": "5.7114582590385812"
+    },
+    {
+      "latitude": "49.740101785297391",
+      "longitude": "5.712378221569514"
+    },
+    {
+      "latitude": "49.740233454437849",
+      "longitude": "5.7127099474116001"
+    },
+    {
+      "latitude": "49.74036495946541",
+      "longitude": "5.7130000568813806"
+    },
+    {
+      "latitude": "49.740491615160295",
+      "longitude": "5.7132000369158806"
+    },
+    {
+      "latitude": "49.740649574273299",
+      "longitude": "5.7133581060848524"
+    },
+    {
+      "latitude": "49.74062531806134",
+      "longitude": "5.7140519976214756"
+    },
+    {
+      "latitude": "49.741304915727163",
+      "longitude": "5.7142537705192815"
+    },
+    {
+      "latitude": "49.741588306760143",
+      "longitude": "5.7142996897620035"
+    },
+    {
+      "latitude": "49.741741145496135",
+      "longitude": "5.7142982670134099"
+    },
+    {
+      "latitude": "49.741983211270835",
+      "longitude": "5.7141225924834176"
+    },
+    {
+      "latitude": "49.742068322701797",
+      "longitude": "5.7140454944336874"
+    },
+    {
+      "latitude": "49.742707694957851",
+      "longitude": "5.7131585464950172"
+    },
+    {
+      "latitude": "49.743137852370239",
+      "longitude": "5.7128007443879181"
+    },
+    {
+      "latitude": "49.744171679263964",
+      "longitude": "5.7127702765801569"
+    },
+    {
+      "latitude": "49.744692965433309",
+      "longitude": "5.7127237837384133"
+    },
+    {
+      "latitude": "49.746228490365532",
+      "longitude": "5.7122376912022572"
+    },
+    {
+      "latitude": "49.746394732958088",
+      "longitude": "5.7122153239499047"
+    },
+    {
+      "latitude": "49.746516486147769",
+      "longitude": "5.7123113100643259"
+    },
+    {
+      "latitude": "49.746342913761922",
+      "longitude": "5.7127569311501993"
+    },
+    {
+      "latitude": "49.74640679947445",
+      "longitude": "5.7129991460303655"
+    },
+    {
+      "latitude": "49.746524654895005",
+      "longitude": "5.7132477953845671"
+    },
+    {
+      "latitude": "49.746422432569148",
+      "longitude": "5.7135470609414076"
+    },
+    {
+      "latitude": "49.746324650422821",
+      "longitude": "5.7138324089251142"
+    },
+    {
+      "latitude": "49.746020926764807",
+      "longitude": "5.7143347339824091"
+    },
+    {
+      "latitude": "49.745854385426462",
+      "longitude": "5.7142807852098612"
+    },
+    {
+      "latitude": "49.745670405442503",
+      "longitude": "5.7143657466264584"
+    },
+    {
+      "latitude": "49.745608339377931",
+      "longitude": "5.714588320006615"
+    },
+    {
+      "latitude": "49.745568911681545",
+      "longitude": "5.7148523064347634"
+    },
+    {
+      "latitude": "49.745702224036869",
+      "longitude": "5.7156072408281045"
+    },
+    {
+      "latitude": "49.745938760358776",
+      "longitude": "5.7163195982231558"
+    },
+    {
+      "latitude": "49.746252870387274",
+      "longitude": "5.7173295551995542"
+    },
+    {
+      "latitude": "49.74655773919914",
+      "longitude": "5.7182771729727451"
+    },
+    {
+      "latitude": "49.746757867611286",
+      "longitude": "5.7188788908506023"
+    },
+    {
+      "latitude": "49.746893771964835",
+      "longitude": "5.7191482025897482"
+    },
+    {
+      "latitude": "49.747789377614545",
+      "longitude": "5.7205760514787256"
+    },
+    {
+      "latitude": "49.748873446483678",
+      "longitude": "5.7219189738965461"
+    },
+    {
+      "latitude": "49.748344445513816",
+      "longitude": "5.7222984552083327"
+    },
+    {
+      "latitude": "49.748128726472821",
+      "longitude": "5.7223143037288198"
+    },
+    {
+      "latitude": "49.747584294130355",
+      "longitude": "5.7221874678943614"
+    },
+    {
+      "latitude": "49.746512537543957",
+      "longitude": "5.7205392123116114"
+    },
+    {
+      "latitude": "49.746300190278745",
+      "longitude": "5.7202636636650857"
+    },
+    {
+      "latitude": "49.745943887011386",
+      "longitude": "5.7199616912055484"
+    },
+    {
+      "latitude": "49.745772102867065",
+      "longitude": "5.7197135246661288"
+    },
+    {
+      "latitude": "49.745095382599736",
+      "longitude": "5.7179299289557983"
+    },
+    {
+      "latitude": "49.744990969122249",
+      "longitude": "5.7176672768083865"
+    },
+    {
+      "latitude": "49.744807817882105",
+      "longitude": "5.7168087504150922"
+    },
+    {
+      "latitude": "49.744725581290091",
+      "longitude": "5.7164695871703444"
+    },
+    {
+      "latitude": "49.74446729932157",
+      "longitude": "5.7159447529752123"
+    },
+    {
+      "latitude": "49.744330684429656",
+      "longitude": "5.7154951034468322"
+    },
+    {
+      "latitude": "49.744135277473028",
+      "longitude": "5.7149558198780994"
+    },
+    {
+      "latitude": "49.743867943927356",
+      "longitude": "5.7144172100605308"
+    },
+    {
+      "latitude": "49.743758593153167",
+      "longitude": "5.7140436244276005"
+    },
+    {
+      "latitude": "49.743726176413588",
+      "longitude": "5.7138011280607266"
+    },
+    {
+      "latitude": "49.743783555607486",
+      "longitude": "5.7135300462798186"
+    },
+    {
+      "latitude": "49.743971323727727",
+      "longitude": "5.7132646843342298"
+    },
+    {
+      "latitude": "49.744595022074627",
+      "longitude": "5.7129675014057533"
+    },
+    {
+      "latitude": "49.744662233275349",
+      "longitude": "5.7129113760146533"
+    },
+    {
+      "latitude": "49.744702173636767",
+      "longitude": "5.7127791955874061"
+    },
+    {
+      "latitude": "49.743843770586786",
+      "longitude": "5.712835773577849"
+    },
+    {
+      "latitude": "49.74314700612328",
+      "longitude": "5.7128422809656954"
+    },
+    {
+      "latitude": "49.74272142538922",
+      "longitude": "5.7132208509197984"
+    },
+    {
+      "latitude": "49.742082052656066",
+      "longitude": "5.7141077982944148"
+    },
+    {
+      "latitude": "49.74175035294261",
+      "longitude": "5.714353675807291"
+    },
+    {
+      "latitude": "49.741592991833656",
+      "longitude": "5.7143482036842732"
+    },
+    {
+      "latitude": "49.740621094108384",
+      "longitude": "5.7141214034827792"
+    },
+    {
+      "latitude": "49.740602113924005",
+      "longitude": "5.7150164079944306"
+    },
+    {
+      "latitude": "49.740616790588163",
+      "longitude": "5.7153214842527396"
+    },
+    {
+      "latitude": "49.740268254513992",
+      "longitude": "5.7170172520020524"
+    },
+    {
+      "latitude": "49.74019329005182",
+      "longitude": "5.717392521503915"
+    },
+    {
+      "latitude": "49.740051675674827",
+      "longitude": "5.7179695660311607"
+    },
+    {
+      "latitude": "49.740966552086313",
+      "longitude": "5.718564611863302"
+    },
+    {
+      "latitude": "49.741044931368954",
+      "longitude": "5.7190702690956776"
+    }
+  ]
 }
