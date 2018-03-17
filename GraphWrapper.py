@@ -1,5 +1,5 @@
 from PyQt5.QtChart      import QChart, QChartView, QLineSeries, QSplineSeries
-from PyQt5.QtGui        import QPolygonF, QPainter
+from PyQt5.QtGui        import QPolygonF, QPainter, QColor
 from PyQt5.QtCore       import QPointF
 from PyQt5.QtWidgets    import QMainWindow, QWidget, QGridLayout
 
@@ -11,6 +11,9 @@ class GraphWrapper(QWidget):
         self.curves = []
         self.chart = QChart()
         self.chart.legend().hide()
+        self.chart.setBackgroundBrush(QColor(160, 137, 149))
+        self.chart.setPlotAreaBackgroundBrush(QColor(190, 190, 190))
+        self.chart.setPlotAreaBackgroundVisible(True)
         self.layout = QGridLayout(self);
         self.view = QChartView(self.chart, self)
         self.layout.addWidget(self.view, 0, 0)
@@ -52,12 +55,11 @@ if __name__ == '__main__':
     window = QMainWindow()
     graph = GraphWrapper(window)
     window.setCentralWidget(graph)
-
     graph.add_curve([(1, 1), (2, 2)], color=Qt.red)
     graph.add_curve([(1, 2), (2, 1)], color=Qt.blue)
     graph.add_points_to_curve([(3, 3)], 0)
-    graph.set_title("Simple example graph")
-    window.setWindowTitle("Simple example window")
+    graph.set_title("Bitcoin Price Prediction")
+    window.setWindowTitle("Game of Code 2018")
     window.resize(850, 450)
     window.show()
     graph.show()
