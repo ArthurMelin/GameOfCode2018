@@ -54,6 +54,11 @@ function initUI() {
 		success: (function(data) {
 			console.log(data);
 			$('.toast').first()[0].M_Toast.remove();
+		}),
+		error: (function(what, status, error) {
+			console.log(status);
+			console.log(error);
+
 		})
 	});
 }
