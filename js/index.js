@@ -7,6 +7,8 @@ const TRAILS_CATEGORIES = [ 5, 10, 15, 20, 30 ];
 function initTrails(_data) {
 	data = _data;
 
+	console.log('Loading', data.length, 'trails');
+
 	for (var i = 0; TRAILS_CATEGORIES.length + 1; i++)
 		trails.push([]);
 
@@ -75,7 +77,6 @@ function initUI() {
 	});
 
 	for (var i = 0; i < TRAILS_CATEGORIES.length + 1; i++) {
-		console.log(i);
 		filters[i + 1].click(function() {
 			drawTrails(i);
 		});
