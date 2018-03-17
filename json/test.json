@@ -1,0 +1,101 @@
+{
+    "declaration": {
+        "attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "elements": [
+        {
+            "type": "element",
+            "name": "gpx",
+            "attributes": {
+                "xmlns": "http://www.topografix.com/GPX/1/1",
+                "version": "1.1",
+                "creator": "FME(R) 2017.0.1.1"
+            },
+            "elements": [
+                {
+                    "type": "element",
+                    "name": "metadata",
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "time",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "2018-03-17T09:52:30+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "bounds",
+                            "attributes": {
+                                "minlat": "49.60219452767349",
+                                "minlon": "5.9491887221148056",
+                                "maxlat": "49.723086656354987",
+                                "maxlon": "6.2568059094539379"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "element",
+                    "name": "trk",
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "name",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Test"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "trkseg",
+                            "elements": [
+                                {
+                                    "type": "element",
+                                    "name": "trkpt",
+                                    "attributes": {
+                                        "lat": "49.723086656354987",
+                                        "lon": "5.9491887221148056"
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "trkpt",
+                                    "attributes": {
+                                        "lat": "49.60219452767349",
+                                        "lon": "5.9546818861894533"
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "trkpt",
+                                    "attributes": {
+                                        "lat": "49.604864506143976",
+                                        "lon": "6.2568059094539379"
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "trkpt",
+                                    "attributes": {
+                                        "lat": "49.679564548659442",
+                                        "lon": "6.1002507337526808"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
