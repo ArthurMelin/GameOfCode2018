@@ -52,12 +52,13 @@ nav {
 	height: 30px;
 }
 
-.loogo {
+.icon-menu {
+	margin-left: 33%;
+	margin-top: 20px;
+	width: 96px !important;
+	height: 96px;
 }
 
-.icon-menu-leaf {
-    margin-left: 33%;
-    margin-top: 20px;
-    width: 96px !important;
-    height: 96px;
+.side-nav .collapsible-body>ul:not(.collapsible)>li.active, .side-nav.fixed .collapsible-body>ul:not(.collapsible)>li.active {
+	background-color: #4e342e;
 }
